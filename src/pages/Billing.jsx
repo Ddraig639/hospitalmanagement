@@ -248,7 +248,7 @@ const Billing = () => {
                         {bill.appointment_title || "N/A"}
                       </td>
                       <td className="py-3 px-4 font-semibold">
-                        ${bill.amount?.toFixed(2) || "0.00"}
+                        ${Number(bill.amount || 0).toFixed(2)}
                       </td>
                       <td className="py-3 px-4">
                         <span
