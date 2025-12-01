@@ -65,7 +65,7 @@ const Login = () => {
             <Users className="text-white" size={32} />
           </div>
           <h1 className="text-3xl font-bold text-gray-800">
-            Hospital Management
+            Hospital 2 Management
           </h1>
           <p className="text-gray-600 mt-2">
             {isRegister ? "Create Account" : "Sign In"}
